@@ -9,6 +9,8 @@ function createAlertDocument(title, description, isModal) {
     // Ensure the text color is appropriate if the alert isn't going to be shown modally.
     const textStyle = (isModal) ? "" : "color: rgb(0,0,0)";
 
+
+
     const template = `<?xml version="1.0" encoding="UTF-8" ?>
         <document>
             <alertTemplate>
